@@ -1,0 +1,24 @@
+
+		  This directory contains data and scripts to demo MongoDB - either EA or Atlas.
+
+
+		  There are two primary scripts:
+
+					 restorePresidentialCampaigns.sh			Loads the PresidentialCampaigns database
+
+					 run-load.sh 									Runs the load generation script from the mongo console
+
+		  Both scripts follow the syntax of:
+					 script-name <hostname> <username>
+
+
+
+
+		  Other Files are:
+
+					 PresidentialCampaigns.tar.gz			mongodump of the database used by restorePresidentialCampaigns.sh
+
+					 generate-profiledata-scenario1.js		Used by generate-profiledata-scenario1.js
+
+					 aggregation.js								Some Sample Aggregation examples for this database
+					 													Can be used with Compass to demo the aggregation builder
