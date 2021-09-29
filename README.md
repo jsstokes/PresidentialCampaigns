@@ -17,6 +17,6 @@ There are two primary scripts:
 ### Other Files are:
 | File | Description
 | ---- | ------
-| PresidentialCampaigns.tar.gz | mongodump of the database used byrestorePresidentialCampaigns.sh
+| PresidentialCampaigns.tar.gz | mongodump of the database used byrestorePresidentialCampaigns.sh<br/>**Note** - This file will be downloaded from Amazon S3 if it is not present.  It is *NOT* included in the repo.  You must have access rights to the S3 bucket in order for it to be downloaded.
 | generate-profiledata-scenario1.js | Used by generate-profiledata-scenario1.js
 | aggregation.js | Some Sample Aggregation examples for this database that can be used with Compass to demo the aggregation builder
